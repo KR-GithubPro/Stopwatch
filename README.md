@@ -45,6 +45,21 @@ SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 색깔번호);
 ```
 콘솔창 글씨의 색깔을 변경합니다.
 
+SetConsoleTitle:
+```C++
+SetConsoleTitle(TEXT("콘솔의 타이틀 이름"));
+```
+
+콘솔창 크기:
+```C++
+system("mode con cols=숫자 lines=숫자");
+```
+주의! 숫자를 입력할때 뛰어쓰기를 하면 안됨.   
+Tip! cols=가로길이 / lines=세로길이.   
+
+이건 한번한번 딱딱 맞춰가면서 해봐야합니다.
+~~(말로만 듣던 노.가.다)~~
+
 cls:
 ```C++
 system("cls");
