@@ -19,7 +19,7 @@ int main()
 			{
 				secs -= 1;
 				SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 12);
-				printf("    ÃÑ ½Ã°£: %2d½Ã°£ :%2dºĞ :%2dÃÊ", hurs, mins, secs);
+				printf("    ì´ ì‹œê°„: %2dì‹œê°„ :%2dë¶„ :%2dì´ˆ", hurs, mins, secs);
 				break;
 			}
 		}
@@ -39,23 +39,23 @@ int main()
 
 		system("cls");
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 10);
-		printf("¦®¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¯\n");
-		printf("¦¢");
+		printf("â”â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”“\n");
+		printf("â”‚");
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 9);
-		printf("     StopWatch | ½ºÅ¾¿öÄ¡     ");
+		printf("     StopWatch | ìŠ¤íƒ‘ì›Œì¹˜     ");
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 10);
-		printf("¦¢\n");
-		printf("¦¢                              ¦¢\n");
-		printf("¦¢");
+		printf("â”‚\n");
+		printf("â”‚                              â”‚\n");
+		printf("â”‚");
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 6);
-		printf("      %2d½Ã°£ :%2dºĞ :%2dÃÊ      ", hurs, mins, secs);
+		printf("      %2dì‹œê°„ :%2dë¶„ :%2dì´ˆ      ", hurs, mins, secs);
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 10);
-		printf("¦¢\n");
-		printf("¦¢                              ¦¢\n");
-		printf("¦±¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦°");
+		printf("â”‚\n");
+		printf("â”‚                              â”‚\n");
+		printf("â”—â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”›");
 
 		Sleep(1000);
-		++secs;
+		secs++;
 	}
 
 	
